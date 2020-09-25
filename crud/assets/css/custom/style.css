@@ -1,0 +1,137 @@
+    html, body{
+    margin:0;
+    font-size: 100%;
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+body a {
+    text-decoration:none;
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+a:hover{
+ text-decoration:none;
+}
+input[type="button"],input[type="submit"]{
+    transition:0.5s all;
+    -webkit-transition:0.5s all;
+    -moz-transition:0.5s all;
+    -o-transition:0.5s all;
+    -ms-transition:0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6{
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}   
+p{
+    margin:0;
+    letter-spacing:1px;
+    font-size:16px;
+    line-height: 1.9;
+    color:#999;
+}
+ul{
+    margin:0;
+    padding:0;
+}
+ul li{
+    list-style: none;
+}
+label{
+    margin:0;
+}
+.float-right{
+    float: right ;
+}
+.form-control{
+    padding: 6px 12px !important;
+}
+.cursor-pointer{
+    cursor: pointerer;
+}
+.d-none{
+    display: none;
+}
+.product-image-thumb-item img{
+    min-width: 140px;
+    min-height: 120px;
+    max-height: 175px
+}
+.easy-btn-submit {
+    font-size: 13px;
+    color: #fff;
+    background: #1accfd;
+    text-decoration: none;
+    position: relative;
+    border: none;
+    border-radius: 0;
+    padding: 8px;
+    outline: none;
+    letter-spacing: 1px;
+    font-weight: 600;
+    margin: 10px;
+    width: 160px;
+}
+button.mi_view-cart {
+    outline: none;
+    border: none;
+    background: #FF5722;
+    width: 30px;
+    height: 25px;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 25px;
+    margin-left: 10px;
+    float: right;
+}
+.mi_view-cart span i{
+    background: #28b804;
+    padding: 2px;
+    border-radius: 27px;
+    position: fixed;
+    margin-top: -15px;
+    width: 19px;
+    height: 19px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.addProductCountIncre,.addProductCountDecre{
+    background-color:#f90;  
+    color: #fff;
+    text-align: center;
+    padding: 5px !important;
+    font-size: 10px;
+}
+.addProductCountIncre{
+    border-top-right-radius:45px;
+    border-bottom-right-radius:45px;
+}
+.addProductCountDecre{
+    border-top-left-radius: 45px;
+    border-bottom-left-radius:45px; 
+}
+.addProductCountDisplay{
+    width: 30px;
+    height: 20px;
+    outline: none;
+    float: left;
+    font-size: 13px;
+}
+.mi-cart-remove {
+    background: none;
+    border:none;
+    outline: none;
+    font-weight: 700;    
+    color: #FF5722;
+}
+.mi-cart-items{
+    margin: 5px 0 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
